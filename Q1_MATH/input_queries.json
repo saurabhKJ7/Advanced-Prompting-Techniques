@@ -1,0 +1,136 @@
+{
+  "test_queries": [
+    {
+      "id": "q1",
+      "query": "What is the area of a rectangle with length 8 cm and width 5 cm?",
+      "grade_level": 6,
+      "category": "geometry",
+      "expected_output": {
+        "answer": "40 square centimeters",
+        "key_concepts": ["area formula", "rectangle properties"],
+        "required_steps": ["multiply length by width", "include units"]
+      }
+    },
+    {
+      "id": "q2",
+      "query": "Solve the equation: 3x - 7 = 14",
+      "grade_level": 7,
+      "category": "algebra",
+      "expected_output": {
+        "answer": "x = 7",
+        "key_concepts": ["linear equations", "inverse operations"],
+        "required_steps": ["add 7 to both sides", "divide by 3"]
+      }
+    },
+    {
+      "id": "q3",
+      "query": "What is the Pythagorean theorem and how do you use it?",
+      "grade_level": 8,
+      "category": "concept_explanation",
+      "expected_output": {
+        "answer": "a² + b² = c²",
+        "key_concepts": ["right triangles", "hypotenuse", "legs"],
+        "required_components": ["formula explanation", "example usage", "visual description"]
+      }
+    },
+    {
+      "id": "q4",
+      "query": "Factor the quadratic expression: x² + 5x + 6",
+      "grade_level": 9,
+      "category": "algebra",
+      "expected_output": {
+        "answer": "(x + 2)(x + 3)",
+        "key_concepts": ["factoring", "quadratic expressions"],
+        "required_steps": ["find factors of 6", "check sum equals 5"]
+      }
+    },
+    {
+      "id": "q5",
+      "query": "A train travels 360 kilometers in 4 hours. What is its average speed?",
+      "grade_level": 6,
+      "category": "word_problem",
+      "expected_output": {
+        "answer": "90 kilometers per hour",
+        "key_concepts": ["speed formula", "units"],
+        "required_steps": ["identify formula", "divide distance by time"]
+      }
+    },
+    {
+      "id": "q6",
+      "query": "What is probability and how do you calculate it?",
+      "grade_level": 7,
+      "category": "concept_explanation",
+      "expected_output": {
+        "answer": "Probability = favorable outcomes / total possible outcomes",
+        "key_concepts": ["probability basics", "fraction representation"],
+        "required_components": ["definition", "formula", "example", "range explanation"]
+      }
+    },
+    {
+      "id": "q7",
+      "query": "Convert 3.5 meters to centimeters",
+      "grade_level": 6,
+      "category": "measurement",
+      "expected_output": {
+        "answer": "350 centimeters",
+        "key_concepts": ["metric conversion", "decimal multiplication"],
+        "required_steps": ["multiply by 100"]
+      }
+    },
+    {
+      "id": "q8",
+      "query": "Solve the system of equations: x + y = 7 and x - y = 3",
+      "grade_level": 8,
+      "category": "algebra",
+      "expected_output": {
+        "answer": "x = 5, y = 2",
+        "key_concepts": ["system of equations", "substitution method"],
+        "required_steps": ["add equations", "divide by 2", "substitute back"]
+      }
+    },
+    {
+      "id": "q9",
+      "query": "What is the volume of a cube with side length 4 meters?",
+      "grade_level": 7,
+      "category": "geometry",
+      "expected_output": {
+        "answer": "64 cubic meters",
+        "key_concepts": ["volume formula", "cubes"],
+        "required_steps": ["cube the side length", "include units"]
+      }
+    },
+    {
+      "id": "q10",
+      "query": "What are similar triangles and how do you identify them?",
+      "grade_level": 8,
+      "category": "concept_explanation",
+      "expected_output": {
+        "answer": "Similar triangles have equal angles and proportional sides",
+        "key_concepts": ["similarity", "proportions", "angles"],
+        "required_components": ["definition", "criteria", "example", "practical application"]
+      }
+    }
+  ],
+  "evaluation_criteria": {
+    "accuracy": {
+      "correct_answer": 3,
+      "partial_credit": 2,
+      "incorrect": 0
+    },
+    "reasoning_clarity": {
+      "clear_complete": 3,
+      "partially_clear": 2,
+      "unclear": 0
+    },
+    "hallucination_score": {
+      "no_hallucination": 3,
+      "minor_inconsistency": 2,
+      "major_hallucination": 0
+    },
+    "consistency": {
+      "fully_consistent": 3,
+      "minor_variation": 2,
+      "inconsistent": 0
+    }
+  }
+}
